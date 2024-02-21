@@ -30,6 +30,12 @@ img{
     justify-content: center;
     color: rgb(0, 0, 0);
 }
+.playerBalance{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
 .cenTop{
    display: flex;
    margin-left: 75px;
@@ -80,11 +86,21 @@ img{
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    gap: 5px;
-    
+    gap: 5px;    
 }
-
-.newHand, .fold, .call, .raise, .x2, .x3{
+p{
+    margin: 2px;
+}
+ .fold, .call, .raise, .newGame{
     background-color: rgba(255, 255, 255, 0.1);
     color: aqua;
 }
+.refresh {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.restart{
+        color: red;
+}
+
